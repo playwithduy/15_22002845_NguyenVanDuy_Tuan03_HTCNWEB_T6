@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body{
+    width: 960px;
+
+    border: 1px solid black;
+    color: orange;
+} 
+
+header{
+    height: 150px;
+    background: rgb(172,75,22);
+   
+}
+
+.chu-hd{
+    position: absolute;
+    top: 10px;
+    color: rgb(154,146,67);
+    text-shadow: 6px -4px 6px white;
+    font-size: 50px;
+}
+
+.menu{
+    height: 50px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+}
+
+.menu li{
+    display: inline;
+    list-style: none;
+    padding: 30px;
+    font-size: 30px;
+}
+.menu li a{
+    text-decoration: none;
+    color: orange;
+}
+
+nav img{
+    width : 958px;
+    height: 200px;
+}
+
+section{
+    float: left;
+    width: 60%;
+    height:  480px;
+    border-right: 1px solid gray;
+    margin-top: 40px;
+    margin-left: 20px;
+   
+}
+
+section p{
+    color: rgb(174,167,119);
+    line-height: 30px;  
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+    text-align: justify;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px dotted #ccc;
+}
+
+button {
+    background: rgb(126,128,0);
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+aside{
+    width: 28%;
+    float: right;
+    margin: 30px 4%;
+    background-color:  #faebd6;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+}
+
+aside h1{
+    position: relative;
+    bottom: 15px;
+    color: #887763;
+}
+
+aside .links li{
+    line-height: 25px;
+    position: relative;
+    top: 20px;
+}
+
+aside .info img{
+    width: 100px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin: 10px
+}
+
+
+footer{
+    clear: both;
+    padding: 5px;
+    background-image: url(../image/footer.png);
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin:  0 auto;
+}
+
+#k1{
+    margin-top: 20px;
+    width: 1000px;
+    height: 850px;
+    border: 1px solid blue;
+    background-image: linear-gradient(rgb(112, 217, 234),rgb(76, 114, 202));
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    border-bottom: 3px dotted white;
+    margin-bottom: ;
+}
+
+a{
+    color: thistle;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li{
+    display: inline;  /*chuyển thành hàng ngang*/
+    padding-left: 20px;  /*CHỉnh khoảng cách giữa các chữ */
+    line-height: 100px;
+}
+
+h1{
+    color: thistle;
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    text-shadow: 6px 6px 6px rgb(123, 231, 139);
+    font-size: 40px;
+}
+section{
+    float: left;
+    width: 50%;
+    height: 600px;
+    color: cornsilk;
+    padding : 10px;
+}
+
+h2,p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+aside{
+    float: left;
+    width: 50%;
+    height: 550px;
+}
+
+footer{
+    clear: both;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 144px;
+    border-top: 3px dotted white;
+}
+input{
+    border-radius: 5px;
+    width: 245px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+select{
+    height: 25px;
+    border-radius: 5px ;
+}
+button{
+    text-align: center;
+    height: 20px;
+    width: 60px;
+    border-radius: 5px;
+    margin-top: 5px;
+    border: 2px dotted black;
+}
+#hi1{
+    margin-top: 20px;
+    width: 450px;
+}
+h3{
+    color: rgb(26, 11, 241);
+    text-shadow: 3px 3px 1px rgb(50, 38, 187);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+h4{
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+}
+address{
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    margin-top: 20px;
+}
